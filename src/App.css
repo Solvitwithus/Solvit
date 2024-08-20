@@ -1,0 +1,70 @@
+.pagecontent{
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.logoimage{
+  height: 4em;
+  width: 4em;
+  
+}
+.cancel{
+  height: 4em;
+  width: 4em;
+}
+.headerleftcontent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5em;
+  margin-left: 1em;
+
+}
+.htag{
+  margin-top: 1em;
+  color:#E52A00;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 1.5em;
+}
+.headerptag {
+  display: inline;
+  margin-top: 2.5rem; 
+  margin-left: -4.3rem;
+  font-weight: 300;
+  font-size: medium;
+  color:#000000;
+}
+.inteli-icon {
+  display: flex;
+  margin-left: auto;
+  margin-top: -3.5rem;
+  margin-right: 1em;
+}
+.popup{
+  border:solid,red,2px
+}
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: -3rem;
+  font-weight: bolder;
+}
+
+nav a {
+  margin: 0 10px; 
+  text-decoration: none;
+  color: #000000;
+}
+nav a:active {
+  color: aqua; 
+}
+
+nav a:hover {
+  border-bottom: 2px solid #E52A00; 
+}
+.Contact{
+  background-color: #E52A00;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -0.5em;
+}
