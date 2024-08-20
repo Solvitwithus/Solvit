@@ -3,7 +3,7 @@ function About (){
     return(
         <>
         <Head/>
-        <h2>About page</h2>
+        <h2>About pagge</h2>
         </>
     )
 }
