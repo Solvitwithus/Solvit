@@ -1,0 +1,39 @@
+
+    .background-image {
+        background-image: url('../Assets/galaxy.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        margin-top: -5.1rem;
+        position: relative;
+        background-attachment: fixed;
+        
+      }
+      .error404image{
+        height: 250px;
+        width: 200.48px;
+        position: absolute;
+        top: 16%;
+        left: 37%;
+        
+      }
+      .text{
+       color:#ffffff;
+       text-align: center;
+       padding-top: 300px;
+       font-weight: bolder;
+       font-size:x-large;
+      }
+      .innertext{
+        text-align: center;
+        color: silver;
+        margin-top: -1em;
+      }
+
+    .Homeee{
+        background-color: #E52A00;
+       margin-left: 48%;
+       padding: 10px;
+       color: #ffffff;
+       border-radius: 10px;
+    }

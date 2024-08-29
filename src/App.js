@@ -39,18 +39,18 @@ function App() {
             <p className="headerptag">Solutions 4U</p>
           </div>
           <nav>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/solutions">Solutions</NavLink>
-            <NavLink to="/industries">Industries</NavLink>
-            <NavLink to="/contact" className="Contact">Contact</NavLink>
-          </nav>
+  <NavLink to="/" activeClassName="active">Home</NavLink>
+  <NavLink to="/about" activeClassName="active">About</NavLink>
+  <NavLink to="/solutions" activeClassName="active">Solutions</NavLink>
+  <NavLink to="/industries" activeClassName="active">Industries</NavLink>
+  <NavLink to="/contact" activeClassName="contact-active" className="Contact">Contact</NavLink>
+</nav>
           <div onClick={() => setShowPopup(true)}>
             <img src={inteli} className="inteli-icon" title="Click" alt="improved hamburger" />
           </div>
         </header>
         
-        <hr />
+        <div className='horline'></div>
         {showPopup && (
           <div className="popup">
             <form onSubmit={handleSubmit}>
@@ -76,7 +76,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/solutions" element={<Solutions />} />
-          <Route path="*" element={<Nopage />} />
+          <Route path="*" element={<Nopage />}/>
         </Routes>
       </BrowserRouter>
     </div>

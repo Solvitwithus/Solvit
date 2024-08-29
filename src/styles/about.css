@@ -1,0 +1,16 @@
+.aboutpage{
+    background-color: #ebebeb;
+    
+}
+.header{
+    margin-left: 3rem;
+    color: #000000;
+}
+.start_text{
+    font-size: large;
+}
+.horizontal_cards{
+    display: flex;
+    flex-direction: row;
+    
+}

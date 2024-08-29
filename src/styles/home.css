@@ -1,0 +1,23 @@
+.right_svg{
+    position: absolute;
+   margin-top: -17%;
+   margin-left: 88%;
+}
+.right_svg:hover{
+    background-color: #E52A00;
+    padding: 15px;
+    border-radius: 50%;
+    cursor:wait;
+}
+
+.left_svg{
+    position: absolute;
+   margin-top: -17%;
+   margin-left: 10%;
+}
+.left_svg:hover{
+    background-color: #E52A00;
+    padding: 15px;
+    border-radius: 50%;
+    cursor:wait;
+}

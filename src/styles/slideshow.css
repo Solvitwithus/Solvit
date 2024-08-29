@@ -1,0 +1,14 @@
+.advimages{
+   
+   
+   width: 65%;
+   height: 70vh;
+   border-radius: 20px;
+}
+.bgcolor{
+    margin-top: 3px;
+    background-color: #ffffff;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
