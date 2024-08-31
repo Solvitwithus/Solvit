@@ -1,6 +1,13 @@
 .aboutpage{
-    background-color: #ebebeb;
+    background-color: #ecedee;
     
+}
+.headerText{
+    color: #000000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 4rem;
+    font-size:xx-large;
+    font-weight: bolder;
 }
 .header{
     margin-left: 3rem;
@@ -8,6 +15,7 @@
 }
 .start_text{
     font-size: large;
+    color: rgb(53, 53, 53);
 }
 .horizontal_cards{
     display: flex;

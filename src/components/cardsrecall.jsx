@@ -13,7 +13,7 @@ function Recall (){
     return(
         <div className="aboutpage">
         <div className='header'>
-        <h1>Why Choose Our Systems</h1>
+        <h1 className='headerText'>Why Choose Our Systems</h1>
         <p className='start_text'>Streamline your business, boost efficiency, and stay ahead with our cutting-edge tech solutions</p>
         </div>
         <div className='horizontal_cards'>

@@ -1,7 +1,7 @@
 .right_svg{
     position: absolute;
    margin-top: -17%;
-   margin-left: 88%;
+   margin-left: 96%;
 }
 .right_svg:hover{
     background-color: #E52A00;
@@ -13,7 +13,7 @@
 .left_svg{
     position: absolute;
    margin-top: -17%;
-   margin-left: 10%;
+   margin-left: 2%;
 }
 .left_svg:hover{
     background-color: #E52A00;

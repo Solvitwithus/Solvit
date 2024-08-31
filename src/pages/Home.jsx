@@ -16,12 +16,10 @@ import clothing from "../Assets/clothing.png"
 import beer from "../Assets/beer.png"
 import Footer from '../components/footer';
 const images = [
-   'appdev.png',
-    'webdev.png',
-    'googleadv.png',
-    'cloud.png',
-    'analytics.png',
-    'erp.png'
+ 'track.png',
+ 'incident.png',
+ 'integration.png',
+ 'ERP.png'
     
     
 ];
@@ -41,8 +39,8 @@ function Home() {
      <Recall/>
 
         <div>
-            <h2>Some of Our Client Industries</h2>
-            <p>Clients that have utilized our products for<br/>several years</p>
+            <h2 className='client_section'>Some of Our Client Industries</h2>
+            <p className='client_name'>Clients that have utilized our products for<br/>several years</p>
             <div className='temps'>
                 <Template Source={dary} text={"Dairy industry"} />
                 <Template Source={oil} text={"Oil industry"} />

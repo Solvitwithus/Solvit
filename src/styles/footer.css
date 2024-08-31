@@ -22,10 +22,35 @@ a{
     flex-direction: row;
     justify-content: space-around;
 }
+.linksocialicons{
+    height: 200px;
+    width:200px;
+    margin-left: -9em;
+}
 .socialicons{
+    
     height: 200px;
     width:200px;
 }
-.socialicons:last-of-type{
-    margin-left: -9em;
+.navs{
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.footer_Titles{
+    color: black;
+}
+.servicenavs{
+    padding-bottom: 8px;
+    font-weight: bolder;
+    
+    font-size: large;
+}
+.servicenavs:hover{
+    text-decoration:line-through;
+    color: aliceblue;
+}
+.loc{
+    color: aliceblue;
 }

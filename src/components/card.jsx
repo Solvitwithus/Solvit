@@ -8,8 +8,8 @@ const Card = ({
     return(
         <div className="cardlayout">
             <img src={Imgsrc} className="cardImage"/>
-            <h2>{Title}</h2>
-            <p>{Text}</p>
+            <h2 className='titles'>{Title}</h2>
+            <p className='theadvertText'>{Text}</p>
 
         </div>
     )
