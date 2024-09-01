@@ -1,0 +1,38 @@
+.OutstandingcontainerD{
+    border:1px, solid,#fafafa;
+    
+    margin-bottom: 3em;
+    margin-left: 4em;
+    width: 40%;
+    height: 40vh;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.OutstandingcontainerD:hover{
+box-shadow:0 0 10px #0a0d31 ;
+cursor: pointer;
+
+}
+.OutstandingheaderD{
+    color: #0a0d31 ;
+    font-size: x-large;
+    font-weight: 400;
+}
+.theslashingborderD{
+    box-shadow: 0 0 0 0.1px red;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    
+}
+.OutstandingimgD{
+    height: 8vh;
+    width: 12%;
+}
+.OutstandingbtnD{
+    border: none;
+    border-bottom: 2px solid red;
+    color: #d93d45;
+}

@@ -1,0 +1,56 @@
+#about{
+    background-color: #ffffff;
+}
+.about_page_into{
+display: flex;
+flex-direction: row;
+color: #000000;
+}
+.straightenup{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+.staff_image{
+    height: 70vh;
+    width:95%;
+   
+    margin-top: 1em;
+}
+.aboutus{
+    color:#0a0d31; 
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+}
+.aboutustext{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.getintouchbutton{
+   background-color: #D5212A;
+   width:20%;
+   height: 10%;
+   color: #ffffff;
+   font-size: large;
+   font-weight:500;
+   border-radius: 5px;
+   border:1px, solid,#0a0d31;
+   margin-left: 6em;
+
+}
+.getintouchbutton:hover{
+    background-color: #E52A00;
+    border: none;
+    cursor:pointer;
+}
+.about_page_outstanding{
+    background-color: #ecedee;
+    display: flex;
+flex-direction: row;
+color: #000000;
+}

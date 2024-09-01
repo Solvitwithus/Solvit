@@ -1,8 +1,8 @@
-import Head from "../components/header";
+
 function Solutions (){
     return(
         <div id="solutions">
-        <Head/>
+       Fuck
         <h2>solutions page</h2>
         </div>
     )

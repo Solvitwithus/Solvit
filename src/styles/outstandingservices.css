@@ -1,0 +1,42 @@
+.Outstandingcontainer{
+    border:1px, solid,#fafafa;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    width: 28%;
+    height: 40vh;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.Outstandingcontainer:hover{
+box-shadow:0 0 10px #0a0d31 ;
+cursor: pointer;
+
+}
+.Outstandingheader{
+    color: #0a0d31 ;
+    font-size: x-large;
+    font-weight: 400;
+    
+}
+.theslashingborder{
+    box-shadow: 0 0 0 0.1px red;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    
+}
+.Outstandingimg{
+    height: 8vh;
+    width: 20%;
+}
+.Outstandingbtn{
+    border: none;
+    border-bottom: 2px solid red;
+    color: #d93d45;
+}
+.TheOutstandingadvtext{
+    color: red;
+}
