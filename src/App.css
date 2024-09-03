@@ -7,10 +7,7 @@
   width: 4em;
   
 }
-.cancel{
-  height: 4em;
-  width: 4em;
-}
+
 .headerleftcontent {
   display: flex;
   flex-direction: row;
@@ -81,4 +78,49 @@ nav a:hover {
     background-color: rgb(226, 222, 222);
     margin: 0 auto;
     margin-top: 10px;
+  }
+  .popup {
+    position: fixed;
+    top: 20%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    z-index: 9999;
+    background-color: #F7D000;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  .cancel{
+    position: fixed;
+    top: -5%;
+    left: 85%;
+    width: 3em;
+    height:3em
+  }
+  .cancel:hover{
+    cursor: pointer;
+  }
+  .newsletterhead{
+    text-align: center;
+    color: #0a0d31;
+  }
+  .newslabel{
+    display: inline-block;
+    width: 120px; /* Adjust as needed */
+    text-align: right;
+  }
+  .newslettersubmition{
+    margin-left: 12em;
+    width: 15%;
+    padding: 5px;
+    margin-top:1em ;
+    margin-bottom: 1em;
+    background-color: purple;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  .newslettersubmition:hover{
+    cursor: pointer;
+    border: 1px solid red;
   }

@@ -1,0 +1,30 @@
+.solutionsintotext{
+    color:#0a0d31;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.demeschedulingbutton{
+   
+    margin-left: 38em;
+    color: #ffffff;
+    font-size:medium;
+    background-color:#d5212a ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.demeschedulingbutton:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+.solutionsbody{
+    margin-top: 2em;
+    background-color: #ecedee;
+    display: flex;
+flex-direction: row;
+color: #000000;
+}

@@ -33,11 +33,11 @@ function App() {
     <div className="pagecontent">
       <BrowserRouter>
         <header>
-          <div className="headerleftcontent">
+        <a href='/'> <div className="headerleftcontent">
             <img src={logo} alt="SolvIt logo" title="SolvIt company logo" className="logoimage" />
             <h4 className="htag">SolvIt</h4>
             <p className="headerptag">Solutions 4U</p>
-          </div>
+          </div></a>
           <nav>
   <NavLink to="/" activeClassName="active">Home</NavLink>
   <NavLink to="/about" activeClassName="active">About</NavLink>
@@ -50,20 +50,29 @@ function App() {
           </div>
         </header>
         
-        <div className='horline'></div>
+        <div className='horline'/>
         {showPopup && (
           <div className="popup">
             <form onSubmit={handleSubmit}>
-              <label>First Name:</label>
+              <h2 className='newsletterhead'>NewsLetter Subscription</h2>
+              <label className='newslabel'>First Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />
               <br />
-              <label>Middle Name:</label>
+              <label className='newslabel'>Middle Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={middleName} onChange={(e) => setMiddleName(e.target.value)} />
               <br />
-              <label>Last Name:</label>
+              <label className='newslabel'>Last Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
               <br />
-              <button type="submit">Submit</button>
+              <label className='newslabel'>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <select id="gender" name="gender">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="neutral">Neutral</option>
+  <option value="prefer-not-to-say">Prefer not to say</option>
+</select>
+<br/>
+              <button type="submit" class='newslettersubmition'>Submit</button>
               <img src={cancel} onClick={handleCancel} className='cancel'/>
               
             </form>
