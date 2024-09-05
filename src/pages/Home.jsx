@@ -15,6 +15,7 @@ import transport from "../Assets/transport.png"
 import clothing from "../Assets/clothing.png"
 import beer from "../Assets/beer.png"
 import Footer from '../components/footer';
+import Demo from '../components/demo';
 const images = [
  'track.png',
  'incident.png',
@@ -37,7 +38,7 @@ function Home() {
         <img src={left} />
         </span>
      <Recall/>
-
+        <Demo/>
         <div>
             <h2 className='client_section'>Some of Our Client Industries</h2>
             <p className='client_name'>Clients that have utilized our products for<br/>several years</p>

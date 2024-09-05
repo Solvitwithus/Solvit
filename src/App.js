@@ -61,6 +61,9 @@ function App() {
               <label className='newslabel'>Middle Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={middleName} onChange={(e) => setMiddleName(e.target.value)} />
               <br />
+              <label className='newslabel'>Email Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="text" value={middleName} onChange={(e) => setMiddleName(e.target.value)} />
+              <br />
               <label className='newslabel'>Last Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
               <br />

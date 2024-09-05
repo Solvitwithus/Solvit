@@ -8,6 +8,7 @@ import mobile from "../Assets/Screenshot (21) 1modiledes&dev.png"
 import website from "../Assets/Screenshot (22) 1webdev&desng.png"
 import DesignDev from "../components/design&dev";
 import Footer from '../components/footer';
+import Demo from "../components/demo";
 
 function Solutions (){
    /* const nav = useNavigate() 
@@ -27,6 +28,8 @@ function Solutions (){
                 <DesignDev OutstandingImgD={mobile} OutstandingheadersD={"Mobile Application Design & Development"} OutstandingtextsD={"Streamline operations, integrate processes, and boost efficiency with our comprehensive Enterprise Resource Planning solution"} />
                 <DesignDev OutstandingImgD={website} OutstandingheadersD={"Web 2, 3 Design & Development"} OutstandingtextsD={"Streamline operations, integrate processes, and boost efficiency with our comprehensive Enterprise Resource Planning solution"}/>
             </div>
+
+            <Demo/>
             <Footer/>
         </div>
     )

@@ -1,10 +1,13 @@
-
+import Demo from "../components/demo"
+import Footer from "../components/footer"
+import "../styles/contact.css"
 function Contact (){
     return(
-        <div id="contact">
-       Fuck
-        <h2>Contact page</h2>
-        </div>
+        <>
+        <h1 id="help">We're Here To Help</h1>
+        <Demo/>
+        <Footer/>
+        </>
     )
 }
 export default Contact
