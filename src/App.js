@@ -16,7 +16,7 @@ function App() {
   const [firstName, setFirstName] = useState('');
   const [middleName, setMiddleName] = useState('');
   const [lastName, setLastName] = useState('');
-
+  const [email, setEmail] = useState('');
   const handleCancel = () => {
     setShowPopup(false);
   };
@@ -61,11 +61,12 @@ function App() {
               <label className='newslabel'>Middle Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={middleName} onChange={(e) => setMiddleName(e.target.value)} />
               <br />
-              <label className='newslabel'>Email Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <input type="text" value={middleName} onChange={(e) => setMiddleName(e.target.value)} />
-              <br />
+              
               <label className='newslabel'>Last Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" value={lastName} onChange={(e) => setLastName(e.target.value)} required />
+              <br />
+              <label className='newslabel'>Email Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
               <br />
               <label className='newslabel'>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <select id="gender" name="gender">
