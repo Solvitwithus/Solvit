@@ -40,12 +40,10 @@ const Demo = () => {
                     <div className="formcontent">
                         <div className="displacement">
                             <label>Email Address*</label>
-                           
                             <input type="email" required className="inputboxes"/>
                         </div>
                         <div className="displacement">
                             <label>Phone Number</label>
-                           
                             <input type="tel" className="inputboxes"/>
                         </div>
                     </div>
@@ -53,12 +51,10 @@ const Demo = () => {
                     <div className="formcontent">
                         <div className="displacement">
                             <label>Company Name</label>
-                            
                             <input type="text" required className="inputboxes"/>
                         </div>
                         <div className="displacement">
                             <label>Select Product</label>
-                           
                             <select id="appType" name="appType">
                                 <option value="sol-erp">SOL-ERP</option>
                                 <option value="webapp">Webapp</option>

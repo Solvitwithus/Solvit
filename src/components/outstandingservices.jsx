@@ -14,7 +14,7 @@ const Outstanding =({
     }
     return(
     <div className="Outstandingcontainer">
-        <img src={OutstandingImg} className="Outstandingimg"/>
+        <img src={OutstandingImg} className="Outstandingimg" alt="outstand"/>
         <h2 className="Outstandingheader">{Outstandingheaders}</h2>
         <p>{Outstandingtexts}</p>
         <div className="theslashingborder"/>

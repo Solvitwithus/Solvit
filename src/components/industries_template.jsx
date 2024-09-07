@@ -5,7 +5,7 @@ const Template = ({
 }) => {
     return(
         <div className="innercont">
-            <img src={Source} className="industryIcon"/>
+            <img src={Source} className="industryIcon" alt="inner_container"/>
             <p>{text}</p>
         </div>
     )

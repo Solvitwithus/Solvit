@@ -1,3 +1,4 @@
+import axios from 'axios'; 
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import Contact from './pages/contact';
@@ -17,17 +18,44 @@ function App() {
   const [middleName, setMiddleName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
+  const [gender, setGender] = useState('male');
+  
   const handleCancel = () => {
     setShowPopup(false);
+    setFirstName('');
+    setMiddleName('');
+    setLastName('');
+    setEmail('');
+    setGender('male');
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    // You can access firstName, middleName, and lastName state values here
-    // For example: console.log(firstName, middleName, lastName);
-    setShowPopup(false);
-  };
+setShowPopup(false)
+    const subscriberData = {
+        firstName,
+        middleName,
+        lastName,
+        email,
+        gender,
+    };
+   
+    // Send the data to your API
+    axios.post("http://localhost:5038/api/solvit/sending", subscriberData)
+        .then((response) => {
+            console.log("Success:", response.data); // Handle success
+            // Clear form or show success message if needed
+        })
+        .catch((error) => {
+            console.error("Error:", error); // Handle error
+        });
+        setFirstName('');
+        setMiddleName('');
+        setLastName('');
+        setEmail('');
+        setGender('male');
+};
+
 
   return (
     <div className="pagecontent">
@@ -69,15 +97,15 @@ function App() {
               <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
               <br />
               <label className='newslabel'>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <select id="gender" name="gender">
-  <option value="male">Male</option>
-  <option value="female">Female</option>
-  <option value="neutral">Neutral</option>
-  <option value="prefer-not-to-say">Prefer not to say</option>
-</select>
+              <select id="gender" value={gender} onChange={(e) => setGender(e.target.value)}>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="neutral">Neutral</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
 <br/>
               <button type="submit" class='newslettersubmition'>Submit</button>
-              <img src={cancel} onClick={handleCancel} className='cancel'/>
+              <img src={cancel} onClick={handleCancel} className='cancel' alt='cancel'/>
               
             </form>
           </div>

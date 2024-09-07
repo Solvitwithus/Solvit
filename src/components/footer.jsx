@@ -1,9 +1,9 @@
-import "../styles/footer.css"
-import fb from "../Assets/facebook.svg"
-import linkedin from "../Assets/linkedin.svg"
+import "../styles/footer.css";
+import fb from "../Assets/facebook.svg";
+import linkedin from "../Assets/linkedin.svg";
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    return (
         <div className="footer">
             <div className="foot_content">
                 <h2 className="footer_Titles">Quick Links</h2>
@@ -12,7 +12,7 @@ export default function Footer(){
                 <a href="solutions" className="navs">Solutions</a>
                 <a href="industries" className="navs">Industries</a>
                 <a href="contact" className="navs">Contact</a>
-                </div>
+            </div>
             <div className="foot_content">
                 <h2 className="footer_Titles">Solutions</h2>
                 <a href="solutions" className="servicenavs">Mobile Design & Development</a>
@@ -24,17 +24,21 @@ export default function Footer(){
             </div>
             <div className="foot_content">
                 <h2 className="footer_Titles">Location</h2>
-                <p className="loc">CiC Road,Upperhill, Nairobi</p>
-                <p className="loc">T: +254 746741528 <br/>&nbsp;&nbsp;&nbsp; +254 743627695</p>
-                <p className="loc">E:solveitsolutions4u@gmail.com</p>
+                <p className="loc">CiC Road, Upperhill, Nairobi</p>
+                <p className="loc">T: +254 746741528 <br />&nbsp;&nbsp;&nbsp; +254 743627695</p>
+                <p className="loc">E: solveitsolutions4u@gmail.com</p>
             </div>
             <div className="foot_content">
                 <h2 className="footer_Titles">Follow Us on Social</h2>
                 <div className="socialiconscontainer">
-                <a href="https://www.facebook.com/" target="new" ><img src={fb} alt="Facebook Logo" className="socialicons" /></a>
-                <a href="https://www.linkedin.com/feed/" target="new"><img src={linkedin} alt="LinkedIn Logo"  className="linksocialicons"/></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={fb} alt="Facebook Logo" className="socialicons" />
+                    </a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                        <img src={linkedin} alt="LinkedIn Logo" className="linksocialicons" />
+                    </a>
                 </div>
             </div>
         </div>
-    )
+    );
 }

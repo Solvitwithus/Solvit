@@ -14,7 +14,7 @@ const DesignDev =({
     }
     return(
     <div className="OutstandingcontainerD">
-        <img src={OutstandingImgD} className="OutstandingimgD"/>
+        <img src={OutstandingImgD} className="OutstandingimgD" alt="Outstanding_container"/>
         <h2 className="OutstandingheaderD">{OutstandingheadersD}</h2>
         <p>{OutstandingtextsD}</p>
         <div className="theslashingborderD"/>
