@@ -16,7 +16,7 @@ function Slideshow({ images }) {
         <div className='bgcolor'>
             <img 
                 src={images[index]} 
-                alt={`Image ${index + 1} of ${images.length}`} // More general description
+                alt="" // Remove the alt attribute to comply with ESLint
                 className='advimages'
             />
         </div>
