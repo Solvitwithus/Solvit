@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/slideshow.css'
+import '../styles/slideshow.css';
+
 function Slideshow({ images }) {
     const [index, setIndex] = useState(0);
 
@@ -13,7 +14,11 @@ function Slideshow({ images }) {
 
     return (
         <div className='bgcolor'>
-            <img src={images[index]} alt={`Slideshow image ${index}`} className='advimages'/>
+            <img 
+                src={images[index]} 
+                alt={`Image ${index + 1} of ${images.length}`} // More general description
+                className='advimages'
+            />
         </div>
     );
 }

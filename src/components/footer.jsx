@@ -7,26 +7,26 @@ export default function Footer() {
         <div className="footer">
             <div className="foot_content">
                 <h2 className="footer_Titles">Quick Links</h2>
-                <a href="#" className="navs">Home</a>
-                <a href="about" className="navs">About</a>
-                <a href="solutions" className="navs">Solutions</a>
-                <a href="industries" className="navs">Industries</a>
-                <a href="contact" className="navs">Contact</a>
+                <a href="/" className="navs">Home</a> {/* Updated href to a valid path */}
+                <a href="/about" className="navs">About</a>
+                <a href="/solutions" className="navs">Solutions</a>
+                <a href="/industries" className="navs">Industries</a>
+                <a href="/contact" className="navs">Contact</a>
             </div>
             <div className="foot_content">
                 <h2 className="footer_Titles">Solutions</h2>
-                <a href="solutions" className="servicenavs">Mobile Design & Development</a>
-                <a href="solutions" className="servicenavs">Web Design & Development</a>
-                <a href="solutions" className="servicenavs">ERP Systems</a>
-                <a href="solutions" className="servicenavs">Google Advertisement</a>
-                <a href="solutions" className="servicenavs">Social Media Marketing</a>
-                <a href="solutions" className="servicenavs">Incident Response</a>   
+                <a href="/solutions" className="servicenavs">Mobile Design & Development</a>
+                <a href="/solutions" className="servicenavs">Web Design & Development</a>
+                <a href="/solutions" className="servicenavs">ERP Systems</a>
+                <a href="/solutions" className="servicenavs">Google Advertisement</a>
+                <a href="/solutions" className="servicenavs">Social Media Marketing</a>
+                <a href="/solutions" className="servicenavs">Incident Response</a>   
             </div>
             <div className="foot_content">
                 <h2 className="footer_Titles">Location</h2>
                 <p className="loc">CiC Road, Upperhill, Nairobi</p>
                 <p className="loc">T: +254 746741528 <br />&nbsp;&nbsp;&nbsp; +254 743627695</p>
-                <p className="loc">E: solveitsolutions4u@gmail.com</p>
+                <p className="loc">E: <a href="mailto:solveitsolutions4u@gmail.com">solveitsolutions4u@gmail.com</a></p>
             </div>
             <div className="foot_content">
                 <h2 className="footer_Titles">Follow Us on Social</h2>

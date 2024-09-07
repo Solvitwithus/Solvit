@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+
 import "../styles/solutions.css"
 import Outstanding from "../components/outstandingservices";
 import theservices from "../Assets/Screenshot (20) 1ser.png"
